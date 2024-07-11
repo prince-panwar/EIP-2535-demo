@@ -163,6 +163,8 @@ const { data: contractValue, error, isLoading, refetch:refetchRead } = useReadCo
                 </div>
               </div>
             </div>
+
+            
             <Modal
     show={openModal}
     onClose={closeModal}

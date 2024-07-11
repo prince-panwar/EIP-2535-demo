@@ -1,9 +1,9 @@
 import { Inter } from "next/font/google";
 import "./globals.css";
-import { cookieToInitialState } from 'wagmi'
 
-import { config } from '@/config'
-import Web3ModalProvider from '@/context'
+
+
+import Web3ModalProvider from '../context/index'
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata = {
